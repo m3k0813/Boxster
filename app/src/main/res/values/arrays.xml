@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item >CJ대한통운</item>
+        <item >우체국택배</item>
+        <item >롯데택배</item>
+        <item >한진택배</item>
+        <item >로젠택배</item>
+        <item >CVSnet 편의점택배</item>
+        <item >CU 편의점택배</item>
+        <item >경동택배</item>
+    </string-array>
+</resources>

@@ -9,11 +9,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="150dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
         android:onClick="onButton1Clicked"
         android:text="배송조회"
         app:layout_constraintStart_toStartOf="parent"
