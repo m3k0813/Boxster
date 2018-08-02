@@ -38,7 +38,9 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/text_view_2"
         android:layout_marginEnd="9dp"
-        android:text="조회" />
+        android:text="조회"
+        android:onClick="onButton3Clicked"
+        />
 
 "
     />

@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onButton2Clicked(View v) {
+        Intent intent = new Intent(getApplicationContext(), Doromung.class);
+        startActivity(intent);
+
+}
 }

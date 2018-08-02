@@ -1,5 +1,6 @@
 package com.example.mjj.boxster;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,14 +15,21 @@ public class LinkActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
-        Spinner s = (Spinner)findViewById(R.id.spinner1);
+        Spinner s = (Spinner) findViewById(R.id.spinner1);
         s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
             }
+
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {}
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
         });
+    }
+
+    public void onButton3Clicked(View v) {
+        Intent intent = new Intent(getApplicationContext(), Link2.class);
+        startActivity(intent);
     }
 }

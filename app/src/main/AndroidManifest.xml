@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".LinkActivity" />
-        <activity android:name=".CJ_PS"></activity>
+        <activity android:name=".CJ_PS" />
+        <activity android:name=".Doromung" />
+        <activity android:name=".Link2"></activity>
     </application>
 
 </manifest>
